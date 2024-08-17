@@ -1,0 +1,7 @@
+/*By default in normal CSS the children can also use the same class as the parent*/
+/*So modular Css makes sure that the style is present only in the component that it is imported in */
+.container{
+    width : 100vw;
+    height : 100vh;
+    background-color: aqua;
+}
