@@ -16,7 +16,6 @@ export default function App() {
           <Route path="/dashboard" element={<RegisterPage/>}/>
           <Route path="/movies" element={<RegisterPage/>}/>
           <Route path="*" element={<NotFoundPage/>}/> {/*any path not taken from above */}
-
         </Routes>
       </BrowserRouter>
     </div>
